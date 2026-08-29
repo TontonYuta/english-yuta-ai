@@ -1,7 +1,8 @@
 node_modules/
 build/
 dist/
-release/
+release/*
+!release/english-reading-ai-1.0.0.apk
 coverage/
 .DS_Store
 *.log
