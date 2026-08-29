@@ -1,0 +1,8 @@
+{
+  "appId": "com.tontonyuta.englishreadingai",
+  "appName": "English Reading AI",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
