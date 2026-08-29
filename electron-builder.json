@@ -1,0 +1,40 @@
+{
+  "appId": "com.englishreadingai.app",
+  "productName": "English Reading AI",
+  "copyright": "Copyright © 2026",
+  "directories": {
+    "output": "release"
+  },
+  "files": [
+    "dist/**/*",
+    "electron/**/*",
+    "build/icon.png",
+    "package.json"
+  ],
+  "linux": {
+    "target": ["AppImage", "deb", "dir"],
+    "category": "Education",
+    "icon": "build/icon.png",
+    "maintainer": "English Reading AI Team <contact@englishreadingai.local>",
+    "synopsis": "English Reading AI - Đọc tiếng Anh theo phương pháp cụm từ",
+    "description": "Nền tảng học đọc tiếng Anh thông minh qua phương pháp cụm từ (chunks) kèm nghĩa tiếng Việt, phát âm và bài tập tương tác.",
+    "syncDesktopName": true,
+    "executableArgs": [
+      "--no-sandbox"
+    ]
+  },
+  "deb": {
+    "priority": "optional",
+    "packageCategory": "education",
+    "depends": [
+      "gconf2",
+      "gconf-service",
+      "libnotify4",
+      "libappindicator1",
+      "libxtst6",
+      "libnss3",
+      "libasound2",
+      "libsecret-1-0"
+    ]
+  }
+}

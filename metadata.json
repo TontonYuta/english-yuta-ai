@@ -1,0 +1,6 @@
+{
+  "name": "English Reading AI",
+  "description": "Nền tảng luyện đọc tiếng Anh tương tác phân tách cụm từ song ngữ Anh - Việt, sổ tay từ vựng Flashcard SRS, bài tập củng cố ngữ pháp và bộ tạo bài đọc bằng AI Prompt.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
