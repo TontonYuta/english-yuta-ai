@@ -61,5 +61,18 @@ Bạn có thể mở ứng dụng ngay lập tức bằng các cách sau:
 ## 📁 Cấu trúc các file build Desktop trong thư mục `release/`
 - [English Reading AI-1.0.0.AppImage](file:///home/tontonyuta/Downloads/english-reading-ai/release/English%20Reading%20AI-1.0.0.AppImage): File thực thi di động, chạy được trên mọi distro Linux không cần cài đặt.
 - [english-reading-ai_1.0.0_amd64.deb](file:///home/tontonyuta/Downloads/english-reading-ai/release/english-reading-ai_1.0.0_amd64.deb): Gói cài đặt chuẩn `.deb` cho Debian/Ubuntu.
-- [release/linux-unpacked/](file:///home/tontonyuta/Downloads/english-reading-ai/release/linux-unpacked): Thư mục binary giải nén sẵn.
+- [english-reading-ai-1.0.0.apk](file:///home/tontonyuta/Downloads/english-reading-ai/release/english-reading-ai-1.0.0.apk): Gói cài đặt ứng dụng Android APK (Release signed).
+- [release/linux-unpacked/](file:///home/tontonyuta/Downloads/english-reading-ai/release/linux-unpacked): Thư mục binary giải nén sẵn cho Linux.
+
+---
+
+## 📱 Build bản Android APK
+
+- **Build lại bản APK Android**:
+  ```bash
+  npm run build
+  npx cap sync android
+  cd android && ./gradlew assembleRelease
+  ```
+
 
